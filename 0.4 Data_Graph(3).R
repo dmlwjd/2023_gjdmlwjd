@@ -22,7 +22,7 @@ barplot(table(X2023_STB_survey $Gender, X2023_STB_survey $Grade))
 pie(table(X2023_STB_survey $Grade))
 
 
-#히스토그램
+#히스토그램.
 hist(X2023_STB_survey $`Age`,main="Age",col=terrain.colors(12))
 
 #박스플롯비교
